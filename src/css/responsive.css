@@ -9,7 +9,7 @@ html, body {
 
     .product {
         width: 370px;
-        height: 680px;
+        height: 690px;
     }
 
     .product .img {
@@ -29,7 +29,7 @@ html, body {
 
     .info h1 {
         width: 320px;
-        line-height: 33px;
+        line-height: 37px;
         font-size: 38px;
     }
 
