@@ -50,3 +50,50 @@ html, body {
     }
     
 }
+
+@media only screen and (max-width: 375px) {
+
+    .product {
+        width: 330px;
+        height: 670px;
+        margin-top: 50px;
+    }
+
+    .product .img {
+        background: url('../img/image-product-mobile.jpg') no-repeat;
+        float: none;
+        background-size: cover;
+        width: 330px;
+        height: 230px;
+        border-top-left-radius: 23px;
+        border-top-right-radius: 23px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .info {
+        float: left;
+    }
+
+    .info h1 {
+        width: 300px;
+        line-height: 37px;
+        font-size: 33px;
+    }
+
+    .desc {
+        font-size: 0.8em;
+        width: 280px;
+        line-height: 24px;
+    }
+    
+    .cartButton {
+        width: 280px;
+    }
+
+    .price small {
+        margin-top: 30px;
+        font-size: 1.2em;
+        margin-right: 30px;
+    }
+    
+}
