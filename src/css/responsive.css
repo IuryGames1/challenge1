@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .product {
+        width: 370px;
+        height: 680px;
+    }
+
+    .product .img {
+        background: url('../img/image-product-mobile.jpg') no-repeat;
+        float: none;
+        background-size: cover;
+        width: 370px;
+        height: 250px;
+        border-top-left-radius: 23px;
+        border-top-right-radius: 23px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .info {
+        float: left;
+    }
+
+    .info h1 {
+        width: 320px;
+        line-height: 33px;
+        font-size: 38px;
+    }
+
+    .desc {
+        font-size: 0.8em;
+        width: 300px;
+        line-height: 24px;
+    }
+    
+    .cartButton {
+        width: 310px;
+    }
+
+    .price small {
+        margin-top: 30px;
+        font-size: 1.2em;
+        margin-right: 30px;
+    }
+    
+}
